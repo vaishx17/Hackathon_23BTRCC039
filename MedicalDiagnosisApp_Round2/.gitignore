@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Environment files
+.env
+.envrc
+venv/
+*.sqlite3
+
+# OS-specific files
+*.DS_Store
+*.log
+
+# IDEs & Editors
+.vscode/
+.idea/
+
+# Model weights (keep folder but ignore file)
+models/*.pth
+
+# Dataset (ignore contents but keep folder structure)
+chest_xray/Data/*
+
+# Optional: Ignore checkpoint/temp training files
+*.pt
+*.pth
+*.ckpt
